@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #img{
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <img id="img" src="tourchoff.jpg" alt="off"/>
+    <button onclick="on()" >tourch on</button>
+    <button onclick="off()">tourch off</button>
+    <script>
+        function on(){
+        document.getElementById('img').src="tourchon.jpeg";
+        }
+        function off(){
+        document.getElementById('img').src="tourchoff.jpg";
+        }
+    </script>
+</body>
+</html>
